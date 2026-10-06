@@ -1,0 +1,18 @@
+li=["ind","sa","aus"]
+lis=[10,6,3,5,2]
+print(type(li))
+print("List of numbers:",lis[:])
+print("Match between",li[2],"vs",li[0])
+print(li[0],"won by",lis[3],"runs")
+print(li.pop())
+li.clear()
+print(li)
+lis.sort()
+print(lis)
+lis.sort(reverse=True)
+print(lis)
+lis.reverse()
+print(lis)
+tup=("nz","aus","ind")
+lis.extend(tup)
+print(lis)
